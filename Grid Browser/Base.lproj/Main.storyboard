@@ -708,6 +708,9 @@
                                                 </segment>
                                             </segments>
                                         </segmentedCell>
+                                        <connections>
+                                            <action selector="navigationClicked:" target="Oky-zY-oP4" id="bF7-dT-637"/>
+                                        </connections>
                                     </segmentedControl>
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="E3C89467-8851-4636-A8BF-21FAE942CAEA" label="" paletteLabel="" sizingBehavior="auto" id="JIM-VX-6eI">
@@ -722,6 +725,9 @@
                                                 <segment image="NSRemoveTemplate" width="32" tag="1"/>
                                             </segments>
                                         </segmentedCell>
+                                        <connections>
+                                            <action selector="adjustRows:" target="Oky-zY-oP4" id="Qtw-dT-aeq"/>
+                                        </connections>
                                     </segmentedControl>
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="2A3550C0-E687-4341-AE4C-7C79074755EB" label="" paletteLabel="" sizingBehavior="auto" id="FMw-zi-pcb">
@@ -738,6 +744,9 @@
                                                 </segment>
                                             </segments>
                                         </segmentedCell>
+                                        <connections>
+                                            <action selector="adjustColums:" target="Oky-zY-oP4" id="aZr-uo-joh"/>
+                                        </connections>
                                     </segmentedControl>
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="5B2056D1-782F-424D-9316-0021987253A4" label="" paletteLabel="" id="QFt-53-bAe">
@@ -752,6 +761,9 @@
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
+                                        <connections>
+                                            <action selector="urlEntered:" target="Oky-zY-oP4" id="aPO-gR-HIC"/>
+                                        </connections>
                                     </textField>
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="461052CB-2C5E-43A7-A6AA-EF2AA5DF29A6" label="" paletteLabel="" sizingBehavior="auto" id="Nr2-BE-SMH">
@@ -796,6 +808,7 @@
                         </connections>
                     </window>
                     <connections>
+                        <outlet property="addressEntry" destination="Sez-q8-oYm" id="nZJ-Yn-CRM"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
                 </windowController>
