@@ -13,6 +13,7 @@
 		9747BBCD225A493200E87A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9747BBCB225A493200E87A87 /* Main.storyboard */; };
 		9747BBD9225A493200E87A87 /* Grid_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747BBD8225A493200E87A87 /* Grid_BrowserTests.swift */; };
 		9747BBE4225A493200E87A87 /* Grid_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747BBE3225A493200E87A87 /* Grid_BrowserUITests.swift */; };
+		9747BBF2225A518A00E87A87 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747BBF1225A518A00E87A87 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		9747BBDF225A493200E87A87 /* Grid BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9747BBE3225A493200E87A87 /* Grid_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid_BrowserUITests.swift; sourceTree = "<group>"; };
 		9747BBE5225A493200E87A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9747BBF1225A518A00E87A87 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9747BBCB225A493200E87A87 /* Main.storyboard */,
 				9747BBCE225A493200E87A87 /* Info.plist */,
 				9747BBCF225A493200E87A87 /* Grid_Browser.entitlements */,
+				9747BBF1225A518A00E87A87 /* WindowController.swift */,
 			);
 			path = "Grid Browser";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9747BBC8225A492E00E87A87 /* ViewController.swift in Sources */,
+				9747BBF2225A518A00E87A87 /* WindowController.swift in Sources */,
 				9747BBC6225A492E00E87A87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
